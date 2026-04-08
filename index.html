@@ -34,7 +34,18 @@
         <div id="palette" class="palette"></div>
 
     </div>
-    <script src="script.js"></script>
+    <script>
+        const formatSelect = document.getElementById('format');
+        const toneSelect = document.getElementById('tone');
+        const button = document.getElementById('generate-btn');
+        const paletteContainer = document.getElementById('palette');
+
+        function generatePalette(){
+            console.log(formatSelect.value);
+            console.log(toneSelect.value);
+        }
+        button.addEventListener('click',generatePalette)
+    </script>
 </body>
 
 </html>
