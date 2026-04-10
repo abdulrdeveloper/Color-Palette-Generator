@@ -33,7 +33,7 @@ function generatePalette() {
     palette.innerHTML = "";
 
     for (let i = 0; i < 20; i++) {
-        const {r, g, b} = randomRGB(toneSelect.value);
+        const { r, g, b } = randomRGB(toneSelect.value);
         let color;
 
         if (formatSelect.value === "hex") {
