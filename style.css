@@ -256,9 +256,9 @@ button:active {
 }
 
 #copy-color{
-    padding: 10px 25px;
-    font-size: 1rem;
-    font-family: inherit;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    font-family:'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 500;
     color: #ffffff;
     border: none;
