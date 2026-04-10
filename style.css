@@ -229,4 +229,45 @@ button:active {
         transform: translateY(0) scale(1);
     }
 }
-              
+
+/* Styling for the dynamically generated divs from JS */
+.color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 150px;
+    border-radius: 16px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    color: var(--text-primary);
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.03);
+    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    animation: scaleIn 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    cursor: pointer;
+    border: 1px solid var(--border-color);
+}
+
+.color:hover {
+    border-color: var(--border-hover);
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+#copy-color{
+    padding: 10px 25px;
+    font-size: 1rem;
+    font-family: inherit;
+    font-weight: 500;
+    color: #ffffff;
+    border: none;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 1.5rem;
+    position: fixed;
+    right:0px;
+    top: 10px;
+}
