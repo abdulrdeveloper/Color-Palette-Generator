@@ -24,7 +24,7 @@
 body {
     font-family: 'Inter', system-ui, -apple-system, sans-serif;
     background-color: var(--bg-main);
-    background-image: 
+    background-image:
         radial-gradient(circle at 15% 50%, rgba(99, 102, 241, 0.08), transparent 25%),
         radial-gradient(circle at 85% 30%, rgba(168, 85, 247, 0.08), transparent 25%);
     color: var(--text-primary);
@@ -73,7 +73,7 @@ h1 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     letter-spacing: -0.04em;
-    filter: drop-shadow(0 0 20px rgba(255,255,255,0.1));
+    filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.1));
 }
 
 .controls {
@@ -85,7 +85,7 @@ h1 {
     padding: 1rem 2rem;
     border: 1px solid var(--border-color);
     border-radius: 24px;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255,255,255,0.05);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.05);
     margin-bottom: 3rem;
     flex-wrap: wrap;
     justify-content: center;
@@ -105,7 +105,8 @@ select {
     transition: all 0.3s ease;
 }
 
-select:focus, select:hover {
+select:focus,
+select:hover {
     border-color: rgba(99, 102, 241, 0.4);
     background: rgba(40, 40, 40, 0.8);
 }
@@ -127,7 +128,7 @@ button {
     cursor: pointer;
     transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
     box-shadow: 0 4px 15px var(--accent-glow);
-    text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 button:hover {
@@ -158,7 +159,7 @@ button:active {
     flex-direction: column;
     align-items: center;
     gap: 1rem;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.2), inset 0 1px 0 rgba(255,255,255,0.03);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.03);
     transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
     animation: scaleIn 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
     transform-origin: center top;
@@ -169,7 +170,7 @@ button:active {
 .color-card:hover {
     border-color: var(--border-hover);
     transform: translateY(-8px) scale(1.02);
-    box-shadow: 0 20px 40px rgba(0,0,0,0.4), inset 0 1px 0 rgba(255,255,255,0.08);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.08);
     background: rgba(30, 30, 30, 0.5);
 }
 
@@ -177,7 +178,7 @@ button:active {
     width: 100%;
     aspect-ratio: 1;
     border-radius: 14px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease;
 }
 
@@ -224,6 +225,7 @@ button:active {
         opacity: 0;
         transform: translateY(15px) scale(0.95);
     }
+
     to {
         opacity: 1;
         transform: translateY(0) scale(1);
@@ -255,10 +257,10 @@ button:active {
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.08);
 }
 
-#copy-color{
+#copy-color {
     padding: 10px 20px;
     font-size: 0.9rem;
-    font-family:'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 500;
     color: #ffffff;
     border: none;
@@ -268,6 +270,6 @@ button:active {
     transition: all 0.3s ease;
     margin-top: 1.5rem;
     position: fixed;
-    right:0px;
+    right: 0px;
     top: 10px;
 }
