@@ -41,3 +41,4 @@ Color Palette Generator/
 No installation is required. Simply open the `index.html` file in your browser to get started.
 
 Happy coding! 🎨
+
