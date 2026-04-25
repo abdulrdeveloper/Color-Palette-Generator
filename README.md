@@ -1,3 +1,4 @@
+
 # Color Palette Generator
 
 A sleek and modern **Color Palette Generator** built with HTML, CSS, and JavaScript. This project allows users to generate beautiful color palettes dynamically and interact with them.
