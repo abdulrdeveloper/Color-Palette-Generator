@@ -31,7 +31,7 @@ Color Palette Generator/
 2. Open `index.html` in your browser.
 3. Interact with the controls to generate and copy color palettes.
 
-## Controls
+## Controls 
 
 - **Generate Palette**: Click the button to generate a new color palette.
 - **Copy Color**: Click on a color card to copy its HEX or RGB code.
