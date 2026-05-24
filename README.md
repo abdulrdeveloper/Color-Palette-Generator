@@ -41,3 +41,14 @@ Color Palette Generator/
 No installation is required. Simply open the `index.html` file in your browser to get started.
 
 Happy coding! 🎨
+
+
+---
+<div align="center">
+  <sub>
+    You can find more of my work at <a href="https://abdulrdeveloper.me">abdulrdeveloper.me</a> &nbsp;·&nbsp; 
+    Read more posts at <a href="https://blog.abdulrdeveloper.me">blog.abdulrdeveloper.me</a> &nbsp;·&nbsp; 
+    See more projects on <a href="https://github.com/abdulrdeveloper">GitHub</a>
+  </sub>
+</div>
+<br/>
